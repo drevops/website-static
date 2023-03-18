@@ -1,0 +1,5 @@
+# To ignore OS temporary files use global .gitignore
+# https://help.github.com/articles/ignoring-files/#create-a-global-gitignore
+
+node_modules
+docs/_site
