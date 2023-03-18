@@ -3,6 +3,8 @@ Drupal website template with integrations
 
 https://www.drevops.com
 
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/drevops/website/tree/main.svg?style=shield)](https://dl.circleci.com/status-badge/redirect/gh/drevops/website/tree/main)
+
 ## Maintenance
 
 The page is published automatically once changes are pushed.
