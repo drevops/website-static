@@ -1,0 +1,50 @@
+:root:not([data-theme=dark]),
+[data-theme=light] {
+  --pico-mark-gradient: linear-gradient(to right, #84266d, #6f3985, #5d409a, #43489d);
+}
+
+.box {
+  padding: 15vh;
+}
+
+body > header .container,
+body > footer .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+body > main > .hero {
+  display: grid;
+  grid-template-columns: 1fr;
+  -moz-column-gap: var(--pico-homepage-spacing-horizontal);
+  column-gap: var(--pico-homepage-spacing-horizontal);
+  row-gap: calc(var(--pico-homepage-spacing-vertical) / 2);
+  justify-items: center;
+  margin-top: calc(var(--pico-homepage-spacing-vertical) / 2);
+  margin-bottom: 0;
+  text-align: center;
+}
+
+body > main .hook {
+  text-align: center;
+}
+
+mark {
+  padding: 0;
+  background: var(--pico-mark-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: xxx-large;
+}
+
+@media (min-width: 1280px) {
+  body > main > .hero .hook {
+    max-width: 950px;
+  }
+
+  body > main > .hero .hook mark {
+    font-size: 3.2rem;
+  }
+}

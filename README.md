@@ -1,31 +1,5 @@
 # Marketing website for DrevOps
-Drupal website template with integrations
+
+Super light and basic version.
 
 https://www.drevops.com
-
-[![CircleCI](https://dl.circleci.com/status-badge/img/gh/drevops/website/tree/main.svg?style=shield)](https://dl.circleci.com/status-badge/redirect/gh/drevops/website/tree/main)
-
-## Maintenance
-
-The page is published automatically once changes are pushed.
-
-### Compile site locally
-
-https://help.github.com/en/enterprise/2.14/user/articles/setting-up-your-github-pages-site-locally-with-jekyll
-
-1. Install Ruby
-2. Install Bundler
-   ``` 
-    gem install bundler
-   ```
-3. Build and serve site:
-   ```
-   cd docs
-   bundle install
-   bundle exec jekyll serve
-   ```
-4. Access site at http://127.0.0.1:4000/
-
-### Check spelling.
-
-Run `./scripts/check-spell.sh`
