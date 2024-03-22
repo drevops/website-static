@@ -3,10 +3,6 @@
   --pico-mark-gradient: linear-gradient(to right, #84266d, #6f3985, #5d409a, #43489d);
 }
 
-/*.box {*/
-/*  padding: 15vh;*/
-/*}*/
-
 body > header .container,
 body > footer .container {
   display: flex;
