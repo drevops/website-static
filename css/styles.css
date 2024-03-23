@@ -3,6 +3,14 @@
   --pico-mark-gradient: linear-gradient(to right, #84266d, #6f3985, #5d409a, #43489d);
 }
 
+body > main .container:last-child {
+  margin-bottom: 0;
+}
+
+body > main {
+  padding-block: 0;
+}
+
 body > header .container,
 body > footer .container {
   display: flex;
@@ -20,6 +28,7 @@ mark {
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+  white-space: nowrap;
 }
 
 @media (min-width: 768px) {
@@ -34,6 +43,11 @@ mark {
   padding-top: 1rem;
 }
 
+.hero-small {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
 @media (min-width: 1280px) {
   .hero {
     padding-top: 15vh;
@@ -43,4 +57,40 @@ mark {
   .hero mark {
     font-size: 3.2rem;
   }
+
+  .hero-small {
+    padding-top: 7vh;
+    padding-bottom: 7vh;
+  }
+}
+
+hgroup > :not(:first-child):last-child {
+  margin-top: 1rem;
+}
+
+@media (min-width: 768px) {
+  .grid-2 {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .grid-3-small {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.grid-3-small article {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 8rem;
+}
+
+.grid-3-small article h3 {
+  text-align: center;
+  margin-bottom: 0;
+  font-weight: normal;
+}
+
+a[role="button"] {
+  background: var(--pico-mark-gradient);
 }
