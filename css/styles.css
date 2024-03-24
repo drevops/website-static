@@ -82,7 +82,12 @@ hgroup > :not(:first-child):last-child {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 8rem;
+}
+
+@media (min-width: 768px) {
+  .grid-3-small article {
+    min-height: 8rem;
+  }
 }
 
 .grid-3-small article h3 {
