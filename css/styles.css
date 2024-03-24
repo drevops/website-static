@@ -1,6 +1,6 @@
 :root:not([data-theme=dark]),
 [data-theme=light] {
-  --pico-mark-gradient: linear-gradient(to right, #000, #333, #666, #666);
+  --pico-mark-gradient: linear-gradient(to right, #000000, #333333, #666666, #666666);
 }
 
 body > main .container:last-child {
@@ -112,4 +112,14 @@ a[role="button"].primary {
 
 code {
   line-height: 1.5;
+}
+
+.logo {
+  height: 30px;
+}
+
+@media (min-width: 768px) {
+  .logo {
+    height: 40px;
+  }
 }
