@@ -96,11 +96,6 @@ hgroup > :not(:first-child):last-child {
   font-weight: normal;
 }
 
-a[role="button"].primary {
-  background: var(--pico-mark-gradient);
-  border: none;
-}
-
 .grid-small article {
   display: flex;
   align-items: center;
@@ -120,6 +115,10 @@ a[role="button"].primary {
 
 code {
   line-height: 1.5;
+}
+
+code [data-clipboard-target] {
+  padding: 0.25rem 0.5rem;
 }
 
 .logo {
